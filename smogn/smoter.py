@@ -174,7 +174,7 @@ def smoter(
     
     ## phi relevance quality check
     if all(i == 0 for i in y_phi):
-        raise ValueError("redefine phi relevance function: all points are 1")
+        #raise ValueError("redefine phi relevance function: all points are 1")
     
     if all(i == 1 for i in y_phi):
         raise ValueError("redefine phi relevance function: all points are 0")
